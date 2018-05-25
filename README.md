@@ -13,6 +13,15 @@ Spam, Lovely Spam, Wonderful Spam
 ```
 
 ### dictionary
+
 ```python
-dict_profile = {'':'', '':'', '':''}
+# init
+dict_profile = {'name':'Jason', 'gender':'male', 'age':'39'}
+dict_profile['gender'] = dict_profile['gen']
+
+# add 
+dict_profile['city':'Seoul']
+
+# delete
+del(dict_profile['gen'])
 ```
