@@ -26,3 +26,14 @@ dict_profile['city':'Seoul']
 # delete
 del(dict_profile['gen'])
 ```
+
+### set method
+provide functions to make set
+
+```python
+set1 = set([1,2,3,4])
+
+print(set1)
+
+{1,2,3,4}
+```
