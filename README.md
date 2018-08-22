@@ -1,3 +1,28 @@
+# DataFrame
+### add column names
+``` python
+import pandas as pd
+import numpy as np
+
+test_data = np.array([[1,2,3],[4,5,6])
+
+df = pd.DataFrame(test_data, columns=['col1','col2','col3'])
+```
+
+### extract to csv
+- with index number
+```python
+import pandas as pd
+
+pd.to_csv('aaa.csv')
+```
+- without index number
+```python
+import pandas as pd
+
+pd.to_csv('aaa.csv', index=False)
+```
+
 # How to deal with data using python
 
 ### csv 
