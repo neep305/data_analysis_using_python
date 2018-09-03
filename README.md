@@ -1,3 +1,44 @@
+# Numpy
+### 
+```python
+import numpy as np
+
+arr = np.array([[1,2,3],[4,5,6]])
+arr[:2,]
+
+# result
+# array([[1,2,3],[4,5,6]])
+
+arr[:1,:2]
+
+# result
+# array([[1,2]])
+
+```
+
+### Boolean Indexing
+```python
+arr = np.array([[11,22],[21,22],[31,32]])
+print(arr)
+
+# result 
+# [[11 12][21 22][31 32]]
+
+filter = (arr > 15)
+filter
+
+# result
+# array([[ False, False],[True, True],[True, True]], dtype=bool)
+
+print(arr[filter])
+
+arr[(arr > 20 & arr < 30)]
+
+arr[(arr % 2 == 0)]
+
+arr[arr % 2 == 0] += 100
+```
+
 # DataFrame
 ### add column names
 ``` python
