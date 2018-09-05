@@ -1,5 +1,5 @@
 # Numpy
-### 
+### Indexing and slicing 
 ```python
 import numpy as np
 
