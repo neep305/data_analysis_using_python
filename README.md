@@ -66,7 +66,7 @@ pd.to_csv('aaa.csv', index=False)
 
 # How to deal with data using python
 
-### csv 
+### Reading a csv file
 
 ```python
 import csv
