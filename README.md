@@ -111,3 +111,7 @@ import datetime
 dt = datetime.datetime.strptime("2019-12-02T09:10:05-0500","%Y%m%d%H%M%S")
 dt
 ``` 
+
+### iloc
+
+### loc
